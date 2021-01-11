@@ -1,0 +1,55 @@
+.settings {
+    padding: 100px 0;
+}
+
+.settings-nav>a {
+    border-radius: 0 !important;
+    color: #6c757d;
+    border-right: 5px solid #dedede;
+}
+
+.settings-nav>a.nav-link.active {
+    color: #1e8c97;
+    background-color: white;
+    border-right: 5px solid #1e8c97;
+}
+
+.settings-profile,
+.settings-password {
+    font-weight: bold;
+}
+
+.settings-div-img {
+    display: flex;
+}
+
+.settings-div-img__img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    box-shadow: 0 1px 6px #b4b4b4;
+    padding: 3px;
+}
+
+.settings-div-img__img>img {
+    border-radius: 50%;
+}
+
+.settings-div-img>label {
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: #1e8c97;
+    cursor: pointer;
+}
+
+.settings-password__success {
+    background-color: #efefef;
+    font-weight: normal;
+    padding: 1rem 1rem;
+    color: gray;
+    border-radius: 5px;
+}

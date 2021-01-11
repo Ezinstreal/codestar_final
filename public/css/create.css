@@ -1,0 +1,27 @@
+.create {
+    padding: 100px 0;
+}
+
+.create__title {
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #556270;
+}
+
+.create-item__input {
+    flex-wrap: wrap;
+    background: #fff;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    color: #556270;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.create-item__btn {
+    float: right;
+    padding-right: 50px;
+}

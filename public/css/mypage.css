@@ -1,0 +1,98 @@
+.info {
+    padding: 100px 0;
+}
+
+.info-left__img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    box-shadow: 0 1px 6px #b4b4b4;
+    padding: 3px;
+    margin: auto;
+}
+
+.info-left__img>img {
+    border-radius: 50%;
+}
+
+.info-left__title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.info-left__description {
+    display: flex;
+    text-align: center;
+}
+
+.info-left__description>div {
+    border-right: 1px solid gray;
+    width: 33.3333%;
+}
+
+.info-left__description>div:last-child {
+    border: none;
+}
+
+.info-center {
+    padding: 0 30px;
+}
+
+.info-center__btn {
+    min-height: 40px;
+}
+
+.info-center__btn>form>a {
+    border-radius: 5px;
+}
+
+.info-center__followed>p,
+.info-center__following>p,
+.info-center__tag>p {
+    margin-bottom: 5px;
+    font-size: .9em;
+    color: #919291;
+    padding-left: 10px;
+}
+
+.info-center__followed>div>a>img,
+.info-center__following>div>a>img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.info-center__followed>div>a,
+.info-center__followed>div>a:hover,
+.info-center__following>div>a,
+.info-center__following>div>a:hover {
+    text-decoration: none;
+}
+
+.info-center__followed {
+    padding: 20px 0;
+}
+
+.info-center__following,
+.info-center__tag {
+    padding-bottom: 20px;
+}
+
+.info-center__tag>div>a,
+.info-center__tag>div>a:hover {
+    background-color: #E8E8E8;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: .8em;
+    color: #545454;
+    padding: 5px 8px;
+}
+
+.info-bdb {
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 50px;
+}
